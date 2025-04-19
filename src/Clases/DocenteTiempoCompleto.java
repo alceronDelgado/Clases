@@ -13,6 +13,8 @@ import javax.swing.JOptionPane;
 public class DocenteTiempoCompleto extends Docente{
     double salario;
     private String nivelEstudio;
+    //Atributo que esta en la clase pero aún no tiene utilidad.
+    private int toralHorasInvestigacion;
     
     public DocenteTiempoCompleto(String nombre,int cedula, String dependencia,double salario){
         super(nombre, cedula, dependencia);
